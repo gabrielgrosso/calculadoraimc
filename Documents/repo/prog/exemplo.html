@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello World!
+    <input id="lacuna1" type="number">
+    <input id="lacuna2" type="number">
+
+    <button onclick="mensagem()">Soma</button>
+</body>
+</html>
+
+<script>
+
+function mensagem (){
+
+    let numero1 = document.getElementById("lacuna1").value;
+    let numero2 = document.getElementById("lacuna2").value;
+
+    let soma = parseFloat(numero1)/parseFloat(numero2**2);
+
+    alert(soma);
+
+}
+
+/*
+var texto = 'algum texto'; //Global
+
+let texto = '2'; //Dentro do bloco
+
+let texto2 = 2;
+
+const texto = 'algum texto'; // constante
+
+const pi = 3.1415;
+*/
+
+
+</script>
+
